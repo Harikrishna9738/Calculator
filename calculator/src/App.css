@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.abc{
+  display: flex;
+  justify-content: space-evenly;
+}
+.def{
+  display: flex;
+  justify-content: space-evenly;
+}
+.pqr{
+  display: flex;
+  justify-content: space-evenly;
+}
+.pqrr{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.outlet{
+  border: solid 5px black;
+  width: 300px;
+  
+  background-color: pink;
+}
+.a{
+  width: 100px;
+  height: 70px;
+  background-color: red;
+}
+
+.a:hover{
+  box-shadow: 3px 3px 4px #888888;
+  background-color:blue;
+}
+.text{
+  font-size: 50px;
+  color: blue;
+  font-weight: bold;
+}
+
+.input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 30px;
+}
